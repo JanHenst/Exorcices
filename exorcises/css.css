@@ -1,0 +1,43 @@
+body {
+  background-color: lightgray;
+  font-size: 23px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#Cirkel, #rechthoek, #temperatuur {
+  text-align: left;
+}
+
+.temperatuur, .cirkel, .rechthoek, .home, #bereken, #bereken2, button {
+  display: inline-block;
+  margin-top: 5px;
+  background-color: #3366ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.temperatuur {
+  margin-left: 45%;
+}
+
+.cirkel {
+  margin-left: 46.5%;
+}
+
+.rechthoek {
+  margin-left: 45.5%;
+}
+
+#fahrenheit {
+  background-color: white;
+  width: 100px;
+}
